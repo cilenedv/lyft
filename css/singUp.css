@@ -1,0 +1,50 @@
+body{
+	position: relative;
+	height:100vh;
+}
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+.boton{
+	height:8vh;
+	font-size: 40px;
+}
+.icon{
+	font-size: 75px;
+	margin-top:30px;
+	color: black;
+}
+.icon:hover{
+	text-decoration:none;
+	color: black;
+}
+.titulo{
+	font-size:40px;
+	margin-bottom:30px;
+}
+.linea{
+	border-bottom:2px solid grey;
+}
+.linea-top{
+	margin-top:30px;
+}
+.mensaje{
+	font-size:30px;
+	margin-top:20px;
+}
+.caja{
+	position: absolute;
+	bottom:0px;
+	width: 100%;
+}
+#next{
+	font-size:50px;
+	text-decoration:none;
+	color: white;
+	background-color:#FF26A4;
+	width: 100%;
+    display: inline-block;
+    padding: 42px 0px;
+}
