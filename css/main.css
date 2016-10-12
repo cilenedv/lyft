@@ -1,0 +1,36 @@
+body{
+	background-image:url(../img/fondo.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	height:100vh;
+	position:relative;
+}
+.logo{
+	height:35vh;
+}
+.pink{
+	height:  10vh;
+}
+.caja{
+	position: absolute;
+	bottom:40px;
+	width: 100%;
+}
+#loginIn{
+	color: white;
+	background-color: rgba(18, 10, 4, 0.1);
+	background: rgba(18, 10, 4, 0.1);
+	border: 1px solid;
+    font-size: 40px;
+    border-radius: 4px;
+    padding: 40px 50px;
+}
+#signUp{
+	background-image: linear-gradient(-90deg, #20699D, #E6006F);
+	border: 3px solid #B005A3 ;
+    color:white;
+    font-size: 40px;
+    border-radius: 4px;
+    padding: 40px 50px;
+}
