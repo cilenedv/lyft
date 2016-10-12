@@ -48,3 +48,6 @@ body{
     display: inline-block;
     padding: 42px 0px;
 }
+.select{
+	float:left
+}
