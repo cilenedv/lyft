@@ -1,0 +1,38 @@
+.num_clave{
+	margin-top:30px;
+	margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    width: 8%;
+    font-size:3vh;
+}
+.enter{
+	
+    font-size:2.5vh;
+    margin:4vh;
+}
+.clave{
+	margin-top: 13vh;
+}
+.lab{
+	display:inline-block;
+	font-size:3vh;
+}
+#resend{
+	padding: 2vh 3vh;
+    font-size: 2.5vh;
+    background-color: white;
+    border: 0.2vh solid grey;
+    border-radius: 2vh;
+}
+#next-2{
+	font-size:4vh;
+	text-decoration:none;
+	color: white;
+	background-color:#FF26A4;
+	width: 100%;
+    display: inline-block;
+    padding: 42px 0px;
+    cursor: pointer;
+}
