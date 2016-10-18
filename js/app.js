@@ -47,7 +47,8 @@ $(document).ready(function() {
 			alert("Su clave es incorrecto");
 		}
 
-	});
+	}); 
+
 
 });
 
