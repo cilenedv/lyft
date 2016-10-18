@@ -5,34 +5,32 @@
     border-bottom: 2px solid grey;
     outline: none;
     width: 8%;
-    font-size:3vh;
+    font-size:55px;
 }
 .enter{
-	
-    font-size:2.5vh;
-    margin:4vh;
+	font-size:50px;
+    margin: 40px;
 }
 .clave{
-	margin-top: 13vh;
+	margin-top: 90px;
 }
 .lab{
 	display:inline-block;
-	font-size:3vh;
+	font-size: 55px;
 }
 #resend{
-	padding: 2vh 3vh;
-    font-size: 2.5vh;
+	padding: 30px;
+    font-size: 50px;
     background-color: white;
-    border: 0.2vh solid grey;
-    border-radius: 2vh;
+    border: 2px solid grey;
+    border-radius: 15px;
 }
 #next-2{
-	font-size:4vh;
+	font-size:70px;
 	text-decoration:none;
 	color: white;
 	background-color:#FF26A4;
 	width: 100%;
     display: inline-block;
     padding: 42px 0px;
-    cursor: pointer;
 }

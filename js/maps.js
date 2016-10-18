@@ -8,13 +8,21 @@
 
 
 var funcionExito = function(posicion) {
-	var lat = posicion.coords.latitude;
+  var lat = posicion.coords.latitude;
   var lon = posicion.coords.longitude;
-  new GMaps({
+  var map=new GMaps({
 	  div: '#map',
 	  lat: lat,
 	  lng: lon
 	});
+  map.addMarker({
+  lat: lat,
+  lng: lon,
+  title: 'Lima',
+  click: function(e) {
+    alert('You clicked in this marker');
+  }
+});
       
 };
 
