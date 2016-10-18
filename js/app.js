@@ -47,9 +47,33 @@ $(document).ready(function() {
 			alert("Su clave es incorrecto");
 		}
 
-	}); 
+	});
+	$("#next3").click(function(evento){
+		if($("#check").is(":checked")){
+			if(validar()){
+				$("#next3").attr("href","localizacion.html");
+			}
 
-
+		}else{
+			alert("mal");
+		}
+		
+	});
 });
-
+function validar(){
+	var nombre=$("#name").val();
+		var apellido=$("#lastName").val();
+		var regexNombre = /^[a-zñáéíóúü]+$/gi;
+		var regexApellido = /^[a-zñáéíóúü]+$/gi;
+		if ((regexNombre.test(nombre))&&(regexApellido.test(apellido))) {
+			if((nombre.length>=2 && nombre.length<=20) && (apellido.length>=2 && apellido.length<=20)){
+					return true;
+			}else{
+				alert("cantidad de letras no admitidas");
+			}
+		}
+		else{
+			alert("ingrese solo letras");
+		}
+}
 
