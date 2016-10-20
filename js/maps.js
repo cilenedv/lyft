@@ -1,5 +1,7 @@
 // geolocalización
 	var cargarPagina = function() {
+	$(".button-collapse").sideNav();
+
 	if (navigator.geolocation) { 
 		// también se puede usar if ("geolocation" in navigator) {}
 		navigator.geolocation.getCurrentPosition(funcionExito, funcionError);
@@ -29,4 +31,5 @@ var funcionExito = function(posicion) {
 var funcionError = function (error) {
 	console.log(error);
 };
+
 $(document).ready(cargarPagina);
