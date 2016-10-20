@@ -1,0 +1,25 @@
+body{
+	position: relative;
+
+}
+#map{
+	height:100vh;
+	width: 100vw;
+}
+.menu{
+	position: absolute;
+    top: 20px;
+}
+.user{
+	width: 100px;
+    height: 100px;
+    margin-left: 40px;
+
+}
+.cir_user{
+	margin-top: 30px;
+    margin-left: 150px;
+}
+.desplegable{
+	width: 60%;
+}
